@@ -20,14 +20,17 @@
 
 <h3>2nd method - Installing it from zip.</h3>
 <ul>
- <li>Go <a href="https://addons.mozilla.org/pl/addon/stopwatchingpornorgetassaded">there</a>.</li>
- <li>Click add to Firefox</li>
+ <li>Download zip file from <a href="https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/">here</a>.</li>
+ <li>Go to <a href="about:addons">about:addons</a>.</li>
+ <li>Click on a gear icon.</li>
+ <li>Select "Install addon from file".</li>
+ <li>Choose zip file you just downloaded.</li>
  <li>Done!</li>
 </ul>
 
 <h2 align="center">How to install it on Chrome?</h2>
 <ul>
- <li>Download zip file from <a href="https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/tag/v1.0">here</a>.</li>
+ <li>Download zip file from <a href="https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/">here</a>.</li>
  <li>Go to <a href="chrome://extensions">chrome://extensions</a> and enable developer mode.</li>
  <li>Drag and drop .zip file you just downloaded</li>
  <li>Done!</li>
