@@ -18,7 +18,7 @@
  <li>Done!</li>
 </ul>
 
-<h3>2nd method - Installing it from zip.</h3>
+<h3>2nd method - Installing it from zip file.</h3>
 <ul>
  <li>Download zip file from <a href="https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/">here</a>.</li>
  <li>Go to <a href="about:addons">about:addons</a>.</li>
