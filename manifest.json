@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Stop Watching Porn Or Get Assaded",
+  "version": "1.0",
+  "description": "Stop watching pornography! LMAO 😂😂😂. You just got Assaded!",
+  "icons": 
+        {
+        "48": "icon48x48.png"
+        },
+  "content_scripts": 
+        [
+            {
+            "matches": ["*://*.pornhub.com/*", "*://*.xvideos.com/*", "*://*.xhamster.com/*", "*://*.pornoorzel.com/*", "*://*.xnxx.com/*", "*://*.youporn.com/*", "*://*.sunporno.com/*", "*://*.hclips.com/*", "*://*.porn.com/*", "*://*.redtube.com/*", "*://*.pinktube.pl/*", "*://*.dinotube.com/*", "*://*.filmyporno.net/*"],
+            "js": ["script.js"]
+            }
+        ]
+}
