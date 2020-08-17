@@ -1,1 +1,1 @@
-location.href="https://ur-assaded.glitch.me/";
+location.href="https://ur-assaded.glitch.me";
