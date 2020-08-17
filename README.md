@@ -5,8 +5,8 @@
 
 <h2 align="center">Table of contents.</h2>
 <ul>
- <li>How to install it on Firefox?</li>
- <li>How to install it on Chrome?</li>
+ <a href="#how-to-install-it-on-firefox"><li>How to install it on Firefox?</li></a>
+ <a href="#how-to-install-it-on-chrome"><li>How to install it on Chrome?</li></a>
 </ul>
 
 <h2 align="center">How to install it on Firefox?</h2>
