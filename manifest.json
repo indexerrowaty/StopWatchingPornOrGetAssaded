@@ -10,7 +10,7 @@
   "content_scripts": 
         [
             {
-            "matches": ["*://*.pornhub.com/*", "*://*.xvideos.com/*", "*://*.xhamster.com/*", "*://*.pornoorzel.com/*", "*://*.xnxx.com/*", "*://*.youporn.com/*", "*://*.sunporno.com/*", "*://*.hclips.com/*", "*://*.porn.com/*", "*://*.redtube.com/*", "*://*.pinktube.pl/*", "*://*.dinotube.com/*", "*://*.filmyporno.net/*"],
+            "matches": ["*://*.pornhub.com/*", "*://*.fuq.com/*", "*://*.xvideos.com/*", "*://*.xhamster.com/*", "*://*.pornoorzel.com/*", "*://*.xnxx.com/*", "*://*.youporn.com/*", "*://*.sunporno.com/*", "*://*.hclips.com/*", "*://*.porn.com/*", "*://*.redtube.com/*", "*://*.pinktube.pl/*", "*://*.dinotube.com/*", "*://*.filmyporno.net/*"],
             "js": ["script.js"]
             }
         ]
