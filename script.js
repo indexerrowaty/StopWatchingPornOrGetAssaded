@@ -1191,17 +1191,17 @@ const blacklist = [
     let st = performance.now();
     if (blacklist.find((x)=>document.URL.includes(x))) {
         console.log('HARAM!HARAM!HARAM!HARAM!HARAM!')
-        //remove scripts and stylesheets from head
+        // Remove scripts and stylesheets from head
         Array.from(document.head.children).forEach(x=>document.head.removeChild(x));
         document.title = "Get Assaded!!!"
 
-        //setup body
+        // Setup body
         document.body.style.backgroundColor = "#000";
         document.body.style.overflow = "hidden";
         document.body.style.margin="0";
         document.body.innerHTML = '<video src="https://raw.githubusercontent.com/Indexerrowaty/StopWatchingPornOrGetAssaded/master/assad.mov">';
 
-        //play the video lol
+        // Play the video lol
         let v =document.querySelector('video')
         v.style.width="100vw";
         v.style.height="100vh";
