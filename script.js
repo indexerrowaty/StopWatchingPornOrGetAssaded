@@ -1185,27 +1185,30 @@ const blacklist = [
 "sexxxplanet.net","sexyfuck.net","sortedxvideos.com","truegaykiss.tumblr.com","twinkbfvideos.com","women-raped-tube.com","xixiporn.com","xxx-my.com","xxxjapaneseporntube.com","xxxmomboobs.com",
 "xxxorientalvideos.com","youngbutts.pics","animalsexporn.net","casinomeister.com","celebriot.com","cutieporno.com","freecam.com","heatworld.com","teencash.com","nude-in-public.com",
 "sketchysex.com","flash-in-public.com","xxx3dcomix.com","bangbros18.com","porno-hub.com","usaxtube.com","eroticfilms.com","femporn.blogspot.com","freeomovie.info","godsartnudes.com",
-"pezporn.com","sss.com","eroreal.com","mainporno.com","sexmosaic.com","tbib.org","xdeutschpornox.com","yato.com",'hentaihaven.xxx','hanime.tv' ];
+"pezporn.com","sss.com","eroreal.com","mainporno.com","sexmosaic.com","tbib.org","xdeutschpornox.com","yato.com","hentaihaven.xxx","hanime.tv" ];
 
 (function() {
-    let st = performance.now();
     if (blacklist.find((x)=>document.URL.includes(x))) {
-        console.log('HARAM!HARAM!HARAM!HARAM!HARAM!')
+    	let videoURL = browser.extension.getURL("assets/assad.mp4")
+        console.log(
+        	"%cHARAM!HARAM!HARAM!HARAM!HARAM!",
+        	"color: red; font-size: 25px;"
+        )
         // Remove scripts and stylesheets from head
-        Array.from(document.head.children).forEach(x=>document.head.removeChild(x));
-        document.title = "Get Assaded!!!"
+        Array.from(document.head.children).forEach(x=>document.head.removeChild(x))
+        document.title = "STAPH WATCHING PORN!!! HARAM!!!!!!"
 
         // Setup body
-        document.body.style.backgroundColor = "#000";
-        document.body.style.overflow = "hidden";
-        document.body.style.margin="0";
-        document.body.innerHTML = '<video src="https://raw.githubusercontent.com/Indexerrowaty/StopWatchingPornOrGetAssaded/master/assad.mov">';
+        document.body.style.backgroundColor = "#000"
+        document.body.style.overflow = "hidden"
+        document.body.style.margin="0"
+        document.body.innerHTML = `<video loop src="${videoURL}">`
 
         // Play the video lol
         let v =document.querySelector('video')
-        v.style.width="100vw";
-        v.style.height="100vh";
-        v.play();
+        v.style.width="100vw"
+        v.style.height="100vh"
+        v.play()
 
     }
 })();
