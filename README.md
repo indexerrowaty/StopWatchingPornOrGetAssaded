@@ -10,11 +10,12 @@
 </ul>
 
 <h2 align="center">How to install it on Firefox?</h2>
-<p>There are 2 ways to do it.</p>
+<p>There are 2 methods to install this extension.</p>
 <h3>1st method - Getting it from Firefox addon repository.</h3>
+<p>It's the easiest method and it's recommended to install the addon this way.</p>
 <ul>
- <li>Go <a href="https://addons.mozilla.org/pl/addon/stopwatchingpornorgetassaded">there</a>.</li>
- <li>Click add to Firefox</li>
+ <li>Open <a href="https://addons.mozilla.org/pl/addon/stopwatchingpornorgetassaded">this website</a>.</li>
+ <li>Click "Add to Firefox"</li>
  <li>Done!</li>
 </ul>
 
@@ -36,3 +37,6 @@
  <li>Done!</li>
 </ul>
 <p>After installing this addon you can disable developer mode if you want to.</p>
+
+
+
