@@ -1,20 +1,9 @@
 {
-    "manifest_version": 2,
-    "name": "Stop Watching Porn Or Get Assaded",
-    "version": "1.1.2",
-    "description": "Stop watching pornography! LMAO 😂😂😂. You just got Assaded!",
-    "icons": 
-    {
-        "48": "assets/icon48x48.png"
-    },
-    "web_accessible_resources": [
-        "assets/assad.mp4"
-    ],
-    "content_scripts": 
-    [
-        {
-            "matches":["<all_urls>"],
-            "js": ["script.js"]
-        }
-    ]
+	"manifest_version": 2,
+	"name": "Stop Watching Porn Or Get Assaded",
+	"version": "1.2.0",
+	"description": "Stop watching pornography! LMAO 😂😂😂. You just got Assaded!",
+	"icons": {"48": "assets/icon48x48.png"},
+	"permissions": ["tabs"],
+	"background": {"scripts": ["script.js"]}
 }
