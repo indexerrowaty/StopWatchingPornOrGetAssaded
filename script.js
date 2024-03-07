@@ -1,24 +1,18 @@
 // Get the URL of the "Get Assaded" site
-const punishmentURL = browser.runtime.getURL("assets/punishment.html");
+const punishmentURL = chrome.runtime.getURL("assets/punishment.html");
 
-// Define blacklist variable
-var blacklist;
+// Get the blacklist
+importScripts(chrome.runtime.getURL("assets/blacklist.js"));
 
-(async function() {
-	// Get the blacklist
-	blacklist = await import(browser.runtime.getURL("assets/blacklist.js"));
-	blacklist = blacklist.default;
+// Listen for any changes to the tabs
+chrome.tabs.onUpdated.addListener((tabID, changeInfo) => {
+	if (changeInfo.url) {
+		// Get the domain of the visited website
+		const domain = new URL(changeInfo.url).hostname.split('.').slice(-2).join(".");
 
-	// Listen for any changes to the tabs
-	browser.tabs.onUpdated.addListener(function (tabID, changeInfo) {
-		if (changeInfo.url) {
-			// Get the domain of the visited website
-			const domain = new URL(changeInfo.url).hostname.split('.').slice(-2).join(".");
-			
-			// Check whether the domain user visited is haram.
-			// And if it is then redirect the user to punishment.
-			if (blacklist.find((x) => domain === x))
-				browser.tabs.update(tabID, {url: punishmentURL});
-		}
-	});
-})();
+		// Check whether the domain user visited is haram.
+		// And if it is then redirect the user to punishment.
+		if (self.blacklist.find(x => domain === x))
+			chrome.tabs.update(tabID, { url: punishmentURL });
+	}
+});

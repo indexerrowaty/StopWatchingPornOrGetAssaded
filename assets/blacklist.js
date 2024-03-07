@@ -1,4 +1,4 @@
-export default [
+self.blacklist = [
 	"livejasmin.com","pornhub.com","xvideos.com","bongacams.com","xhamster.com","xnxx.com","youporn.com","chaturbate.com","spankbang.com","sex.com",
 	"redtube.com","dmm.com","beeg.com","yespornplease.com","4chan.org","urbandictionary.com","xhamster.desi","manyvids.com","gotporn.com","e-hentai.org",
 	"cda.pl","youjizz.com","okcupid.com","txxx.com","tube8.com","myfreecams.com","pornhubpremium.com","perfectgirls.net","nhentai.net","sxyprn.com",
