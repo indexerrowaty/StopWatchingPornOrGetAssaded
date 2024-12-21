@@ -20,7 +20,7 @@ document.getElementById("toggleCheckbox").addEventListener("click", () => {
 });
 
 // Automatically check and save custom filters
-customFilterInput.addEventListener('input', (e) => {
+customFilterInput.addEventListener('input', e => {
 	if(!filterCheck.test(e.target.value) && e.target.value) return e.target.classList.add("invalid")
 	e.target.classList.remove("invalid");
 	chrome.storage.sync.set({
