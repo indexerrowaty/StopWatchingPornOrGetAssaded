@@ -178,7 +178,7 @@ input[type="checkbox"]::after {
 	background-color: transparent;
 	padding: 0px;
 	font-size: 0;
-	transition: background-color 0.2s ease, padding 0.2s ease;
+	transition: background-color padding 0.2s ease;
 }
 
 input[type="checkbox"]:checked:after {
