@@ -7,7 +7,7 @@ Get it from [Firefox Browser Addon repository](https://addons.mozilla.org/en-US/
 ## Installing the addon manually
 
 ### Installing on Firefox
-1. Download latest zip or xpi file from [here](https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/latest).
+1. Download latest xpi file from [here](https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/latest).
 2. Go to [about:addons](about:addons).
 3. Click on a gear icon.
 4. Select "Install Add-On From File...".
@@ -15,7 +15,7 @@ Get it from [Firefox Browser Addon repository](https://addons.mozilla.org/en-US/
 6. Done!
 
 ### Installing on Chrome
-1. Download zip file from [here](https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/).
+1. Download latest crx file from [here](https://github.com/Indexerrowaty/StopWatchingPornOrGetAssaded/releases/latest).
 2. Go to [chrome://extensions](chrome://extensions).
 3. Enable developer mode.
 4. Drag and drop the file you just downloaded.
