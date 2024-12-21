@@ -4,7 +4,7 @@ const punishmentURL = chrome.runtime.getURL("assets/punishment/punishment.html")
 // Get built-in filter list
 // Chrome only, because Firefox can't import scripts it seems. So we import in manifest.json
 // If this changes, feel free to do a pull request.
-if(typeof filterlist === 'undefined') importScripts(chrome.runtime.getURL("assets/filterlist.js"));
+if (typeof filterlist === 'undefined') importScripts(chrome.runtime.getURL("assets/filterlist.js"));
 
 // Get user preferences
 var filters = [];
