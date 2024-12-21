@@ -7,5 +7,5 @@ console.log(
 // Prevent more knowledgeable people from pausing the video
 document.addEventListener(
 	"contextmenu",
-	(e) => e.preventDefault()
+	e => e.preventDefault()
 )
