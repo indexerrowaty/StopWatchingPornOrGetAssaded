@@ -2,6 +2,7 @@
 	--bg: #121214;
 	--option: #1C1C1E;
 	--optionTitle: #2a2a2c;
+	--textArea: #3d3d3e;
 }
 
 ::-webkit-scrollbar {
@@ -13,7 +14,7 @@
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 400;
-	src: url('../fonts/dm-sans-v15-latin-regular.woff2') format('woff2');
+	src: url('/assets/fonts/dm-sans-v15-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -21,7 +22,7 @@
 	font-family: 'DM Sans';
 	font-style: normal;
 	font-weight: 900;
-	src: url('../fonts/dm-sans-v15-latin-900.woff2') format('woff2');
+	src: url('/assets/fonts/dm-sans-v15-latin-900.woff2') format('woff2');
 }
 
 @media (hover: none) {
@@ -127,7 +128,7 @@ textarea {
 	height: 200px;
 	min-height: 200px;
 	resize: none;
-	background-color: #3d3d3e;
+	background-color: var(--textArea);
 	border: none;
 	border-radius: 5px;
 	color: white;
@@ -177,7 +178,7 @@ input[type="checkbox"]::after {
 	background-color: transparent;
 	padding: 0px;
 	font-size: 0;
-	transition: all 0.2s ease;
+	transition: background-color 0.2s ease, padding 0.2s ease;
 }
 
 input[type="checkbox"]:checked:after {

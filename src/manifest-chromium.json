@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Stop Watching Porn or Get Assaded",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Stop watching pornography! LMAO 😂😂😂. You just got Assaded!",
 	"homepage_url": "https://github.com/indexerrowaty/stopwatchingpornorgetassaded",
 	"browser_specific_settings": {
@@ -17,5 +17,5 @@
 		"default_popup": "assets/options/settings.html"
   	},
 	"options_ui": {"page": "assets/options/settings.html"},
-	"background": {"service_worker": "script-chromium.js"}
+	"background": {"service_worker": "script.js"}
 }
