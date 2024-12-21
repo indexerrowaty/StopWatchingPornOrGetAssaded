@@ -17,5 +17,5 @@
 		"default_popup": "assets/options/settings.html"
   	},
 	"options_ui": {"page": "assets/options/settings.html"},
-	"background": {"scripts": ["assets/filterlist.js", "script.js"]}
+	"background": {"service_worker": "script-chromium.js"}
 }

@@ -1,7 +1,7 @@
 # Stop Watching Porn Or Get Assaded
 Browser extension which blocks porn websites and shows "You Just Got Assaded" meme instead.
 
-Get it from [Firefox Browser Addons repository](https://addons.mozilla.org/en-US/addon/stopwatchingpornorgetassaded) or [Chrome Web Store](https://chromewebstore.google.com/detail/stop-watching-porn-or-get/ekjhdbkgagcnmlnnabdpfaogeonfjbmd)
+Get it from [Firefox Browser Addon repository](https://addons.mozilla.org/en-US/addon/stopwatchingpornorgetassaded) or [Chrome Web Store](https://chromewebstore.google.com/detail/stop-watching-porn-or-get/ekjhdbkgagcnmlnnabdpfaogeonfjbmd)
 ![screenshot](https://addons.mozilla.org/user-media/previews/full/265/265669.png)
 
 ## Installing the addon manually

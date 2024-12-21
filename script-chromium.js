@@ -1,6 +1,9 @@
 // Get the URL of the "Get Assaded" site
 const punishmentURL = chrome.runtime.getURL("assets/punishment/punishment.html");
 
+// Get built-in filter list
+importScripts(chrome.runtime.getURL("assets/filterlist.js"));
+
 // Get user preferences
 var filters = [];
 function loadUserPreferences() {
