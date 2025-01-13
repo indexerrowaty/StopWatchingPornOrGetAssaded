@@ -1,7 +1,7 @@
 const filterlist = [
 	"livejasmin.com","pornhub.com","xvideos.com","bongacams.com","xhamster.com","xnxx.com","youporn.com","chaturbate.com","spankbang.com","sex.com",
-	"redtube.com","dmm.com","beeg.com","yespornplease.com","4chan.org","urbandictionary.com","xhamster.desi","manyvids.com","gotporn.com","e-hentai.org",
-	"cda.pl","youjizz.com","okcupid.com","txxx.com","tube8.com","myfreecams.com","pornhubpremium.com","perfectgirls.net","nhentai.net","sxyprn.com",
+	"redtube.com","dmm.com","beeg.com","yespornplease.com","4chan.org","xhamster.desi","manyvids.com","gotporn.com","e-hentai.org",
+	"youjizz.com","okcupid.com","txxx.com","tube8.com","myfreecams.com","pornhubpremium.com","perfectgirls.net","nhentai.net","sxyprn.com",
 	"pornpics.com","clips4sale.com","pornhdvideos.net","porntrex.com","eporner.com","pornhublive.com","xhamsterlive.com","porn.com","xtube.com","drtuber.com",
 	"motherless.com","ashemaletube.com","hitomi.la","fuq.com","daftsex.com","match.com","doublepimp.com","cam4.com","sexseq.com","nutaku.net",
 	"reallifecam.com","thefappeningblog.com","theporndude.com","gayboystube.com","heavy-r.com","jizzbunker.com","brazzers.com","efukt.com","biqle.ru","hclips.com",
